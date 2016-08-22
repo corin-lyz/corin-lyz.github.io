@@ -1,0 +1,475 @@
+/*超过1200px的大屏显示器上显示样式*/
+
+@media(min-width: 1200px) {
+    body {
+        font-size: 100%;
+    }
+    .container {
+        width: 95%;
+    }
+    h1 {
+        font-size: 4.5em;
+        letter-spacing: 0.05em;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 2.8em;
+        font-weight: bold;
+        margin: 0;
+    }
+    .header .container-fluid {
+        width: 96%;
+    }
+    .section1 .container {
+        margin-top: 15%;
+        margin-left: 12%;
+    }
+    .section1 h1 {
+        font-family: fantasy;
+        letter-spacing: 3px;
+    }
+    .section1 h2 {
+        margin-left: -800px;
+    }
+    .section1 .container .project-info {
+        text-align: center;
+    }
+    .section1 .container .project-info .wrapper {
+        width: 62%;
+        margin: 0 auto;
+    }
+    .section1 .container .project-info .wrapper .hr {
+        width: 100%;
+        height: 0.3em;
+        background: #000;
+        margin-bottom: 1em;
+        margin-left: 1840px;
+    }
+    .section1 .container .project-info p {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 0.5em 0;
+    }
+    .section1 span {
+        font-size: 2.2em;
+        margin-left: 48%;
+        position: absolute;
+        bottom: 20px;
+        top: 620px;
+    }
+    .section2 .container {
+        height: 100%;
+    }
+    .section2 h1 {
+        text-align: center;
+        font-size: 3.8em;
+        margin: 8% 0;
+        margin-left: -1800px;
+    }
+    .section2 h2 {
+        font-size: 2.5em;
+    }
+    .section2 .savePro p {
+        font-size: 1.5em;
+        margin-bottom: 3%
+    }
+    .section2 .savePro1 .hr {
+        width: 72%;
+        height: 0.25em;
+        background: #73c8e2;
+        margin-top: 0.5em;
+    }
+    .section2 .savePro2 .hr {
+        width: 61%;
+        height: 0.25em;
+        background: #73c8e2;
+        margin-top: 0.5em;
+    }
+    .section2 .savePro3 .hr {
+        width: 47%;
+        height: 0.25em;
+        background: #73c8e2;
+        margin-top: 0.5em;
+    }
+    .section2 span {
+        font-size: 2.1em;
+        margin-left: 48%;
+        position: absolute;
+        bottom: 20px;
+        top: 620px;
+    }
+    .section3 .size {
+        font-size: 3.8em;
+        text-align: center;
+        position: relative;
+        top: -0.5em;
+        margin-left: -600px;
+    }
+    .section3 .service {
+        margin-left: 1%;
+    }
+    .section3 .service p {
+        font-size: 14px;
+    }
+    .section3 .service1 .hr {
+        width: 75%;
+        background: #000;
+        height: 2px;
+    }
+    .section3 .service2 .hr {
+        width: 82%;
+        background: #000;
+        height: 2px;
+    }
+    .section3 .service3 .hr {
+        width: 88%;
+        background: #000;
+        height: 2px;
+    }
+    .section3 .service4 .hr {
+        width: 93%;
+        background: #000;
+        height: 2px;
+    }
+    .section3 .service5 .hr {
+        width: 102%;
+        background: #000;
+        height: 2px;
+    }
+    .section3 h1 {
+        font-size: 2.5em;
+    }
+    .section3 img {
+        width: 280px;
+        height: 500px;
+    }
+    .section3 .pic1 {
+        float: left;
+        margin-top: -2em;
+        margin-left: -130em;
+    }
+    .section3 .pic2 {
+        float: left;
+        margin-top: -2em;
+        margin-left: -130em;
+    }
+    .section3 .pic3 {
+        float: left;
+        margin-top: -2em;
+        margin-left: -130em;
+    }
+    .section3 .pic4 {
+        float: left;
+        margin-top: -2em;
+        margin-left: -130em;
+    }
+    .section3 .pic5 {
+        float: left;
+        margin-top: -2em;
+        margin-left: -130em;
+    }
+    .section3 span {
+        font-size: 2.2em;
+        margin-left: 48%;
+        position: absolute;
+        bottom: 20px;
+        top: 620px;
+    }
+    .section4 .size {
+        font-size: 3.8em;
+        text-align: center;
+        position: relative;
+        top: -1.2em;
+    }
+    .section4 .pic img {
+        float: left;
+        margin-top: -80px;
+        z-index: 1;
+    }
+    .section4 .advantage {
+        float: right;
+        margin-right: 150px;
+        width: 680px;
+        z-index: 9;
+    }
+    .section4 .advantage1 h1 {
+        margin-left: 0;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 2px;
+    }
+    .section4 .advantage1 .hr {
+        height: 3px;
+        background: #000;
+        width: 670px;
+    }
+    .section4 .advantage1 p {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .section4 .advantage2 h1 {
+        margin-left: -100px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 2px;
+    }
+    .section4 .advantage2 .hr {
+        height: 3px;
+        margin-left: -100px;
+        background: #000;
+        width: 580px;
+    }
+    .section4 .advantage2 p {
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: -100px;
+        margin-bottom: 30px;
+    }
+    .section4 .advantage3 h1 {
+        margin-left: -200px;
+        font-size: 30px;
+        margin-bottom: 2px;
+        font-weight: bold;
+    }
+    .section4 .advantage3 .hr {
+        height: 3px;
+        margin-left: -200px;
+        background: #000;
+        width: 500px;
+    }
+    .section4 .advantage3 p {
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: -200px;
+        margin-bottom: 50px;
+    }
+    .section4 .compt img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 240px;
+        height: 200px;
+        float: right;
+        margin-right: 50px;
+    }
+    .section4 .pad img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 140px;
+        height: 100px;
+        float: right;
+    }
+    .section5 h1 {
+        text-align: center;
+        font-size: 50px;
+        font-family: fantasy;
+        font-weight: bold;
+        margin-top: 60px;
+    }
+    .section5 .p1 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 1px;
+    }
+    .section5 .p2 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 0;
+    }
+    .section5 img {
+        padding-top: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    .section5 .but {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: -10px;
+    }
+    .section5 .btn {
+        margin-left: 45%;
+        font-size: 30px;
+        font-weight: bold;
+        background: #3DB2EF;
+    }
+    .section5 .copy {
+        margin-top: 60px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+
+/*768px--970px的显示器上显示样式*/
+
+@media(max-width: 970px) {
+    h1 {
+        font-size: 3.5em;
+        letter-spacing: 0.05em;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 2.2em;
+        font-weight: bold;
+        margin: 0;
+    }
+    .section1 .container {
+        margin-top: 15%;
+        margin-left: 12%;
+    }
+    .section1 h1 {
+        font-family: fantasy;
+        letter-spacing: 3px;
+    }
+    .section1 h2 {
+        margin-left: -800px;
+    }
+    .section1 .container .project-info {
+        text-align: center;
+    }
+    .section1 .container .project-info .wrapper {
+        width: 62%;
+        margin: 0 auto;
+    }
+    .section1 .container .project-info .wrapper .hr {
+        width: 100%;
+        height: 0.3em;
+        background: #000;
+        margin-bottom: 1em;
+    }
+    .section1 .container .project-info p {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 0.5em 0;
+    }
+    .section1 span {
+        font-size: 2.2em;
+        margin-left: 48%;
+        position: absolute;
+        bottom: 20px;
+        top: 620px;
+    }
+}
+
+
+/*小于768px的显示器上显示样式*/
+
+@media(max-width: 768px) {
+    .profile {
+        padding: 0;
+        margin-left: -10px;
+    }
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    padding-top: 70px;
+    font-size: 100%;
+}
+
+a:focus {
+    outline: none;
+    -moz-outline: none;
+}
+
+header {
+    font-size: 14px;
+}
+
+.logo {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 2em;
+}
+
+.logo img {
+    float: left;
+    height: 50px;
+}
+
+.logo p {
+    float: right;
+    line-height: 50px;
+    font-family: fantasy;
+    font-size: 35px!important;
+    color: #fff;
+}
+
+.navbar-inverse input[type="text"] {
+    background: #313131;
+    border: none;
+    color: #999;
+}
+
+.navbar-inverse .navbar-form {
+    position: relative;
+}
+
+.navbar-inverse button[type="submit"] {
+    position: absolute;
+    top: 15%;
+    right: 20px;
+    background: none;
+    border: none;
+}
+
+.navbar-inverse .glyphicon {
+    color: #999;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.profile {
+    padding-right: 25px;
+}
+
+.section1 {
+    background: url(../imgs/1.jpg) no-repeat center center;
+    background-size: cover;
+    color: #000;
+}
+
+.section2 {
+    background: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #73c8e2;
+}
+
+.section3 {
+    background: #73c8e2;
+    color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section4 {
+    background: #ECFEFE;
+    color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section4 span {
+    font-size: 2.2em;
+    margin-left: 48%;
+    position: absolute;
+    bottom: 20px;
+    top: 620px;
+}
+
+.section5 {
+    background: #E9E3E3;
+    color: #000;
+    position: relative;
+}
