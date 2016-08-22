@@ -35,7 +35,7 @@
         text-align: center;
     }
     .section1 .container .project-info .wrapper {
-        width: 62%;
+        width: 64%;
         margin: 0 auto;
     }
     .section1 .container .project-info .wrapper .hr {
@@ -102,7 +102,7 @@
         font-size: 3.8em;
         text-align: center;
         position: relative;
-        top: -0.5em;
+        top: 0;
         margin-left: -600px;
     }
     .section3 .service {
